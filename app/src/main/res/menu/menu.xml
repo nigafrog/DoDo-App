@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id = "@+id/menubar"
+    >
+
+    <item
+        android:id="@+id/Details"
+        android:icon="@drawable/ic_baseline_access_timer"
+        android:title="About us"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/five_min"
+        android:icon="@drawable/ic_baseline_access_timer"
+        android:title="5 Min Timer"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/fifteen_min"
+        android:icon="@drawable/ic_baseline_access_timer"
+        android:title="15 Min Timer"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/thirty_min"
+        android:icon="@drawable/ic_baseline_access_timer"
+        android:title="30 Min Timer"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/forty_min"
+        android:icon="@drawable/ic_baseline_access_timer"
+        android:title="40 Min Timer"
+        app:showAsAction="never"/>
+
+
+
+
+
+</menu>

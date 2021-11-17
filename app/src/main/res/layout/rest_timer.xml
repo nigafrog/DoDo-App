@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/moon_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/img_3" />
+
+    <TextView
+        android:id="@+id/Rest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/moon_img"
+        android:text="Please Rest for:"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/arrow_img"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/Rest"
+        android:layout_marginVertical="10dp"
+        android:src="@drawable/ic_baseline_arrow_downward_24" />
+
+    <TextView
+        android:id="@+id/timer_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/arrow_img"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:text="00:00"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="70sp" />
+
+    <Button
+        android:id="@+id/start_pause_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timer_count"
+        android:layout_centerInParent="true"
+        android:layout_marginVertical="5dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#1368E5"
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/Reset_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_pause_count"
+        android:layout_centerInParent="true"
+        android:layout_marginVertical="5dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#1368E5"
+        android:text="Reset"
+        android:visibility="invisible"
+        tools:visibility="visible" />
+</RelativeLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "862620758460",
+    "project_id": "dodo-a306a",
+    "storage_bucket": "dodo-a306a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862620758460:android:299c94d64ccd925e263bb9",
+        "android_client_info": {
+          "package_name": "com.example.dodotesting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862620758460-ecturqaocelu5m197son12rnat275li6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dodotesting",
+            "certificate_hash": "c7264e4f2b05b15951e42bb7cb93f91b516e8d8e"
+          }
+        },
+        {
+          "client_id": "862620758460-3g3hvkn4knguv21npshd36igou8amcqh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDASr8RqV4iy4ck6WIDQV2QiqZtAKKse_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862620758460-3g3hvkn4knguv21npshd36igou8amcqh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
